@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkiathosNow.Bourtzi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bourtzi"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bourtzi_image" />
+
+        <TextView
+            android:id="@+id/history_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/bourtzi"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"/>
+
+
+        <TextView
+            android:id="@+id/ancient_time_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ancient Time"
+            android:textSize="18sp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/history_title"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/first_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/ancient_time_title"
+            android:text="Skiathos has always been called by the same name since the pre-Hellenic period. It is supposed that this name was given to the island by the Pelasgians, its first inhabitants because they were impressed by the great shadow (''skia'' in Greek) of the many trees covering the island. Dionysus was the god worshipped on the island. After these first settlers in the history of Skiathos, the island was then inhabited by Cretans and Mycenaeans, who also occupied the other Sporades. The fertility and the strategic position of the island attracted many invaders. In the 7th and 6th century BC, the inhabitants of Chalkis, Evia island, colonized Skiathos and created the first fortified town on the island."/>
+
+        <TextView
+            android:id="@+id/second_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/first_section"
+            android:text="During the Persian Wars, Skiathos was a great help to the Athenians and its harbor was used as a fleet base. In 478 BC, the Athenian Delian League welcomed Skiathos as a member. After the Peloponnesian War (404 BC) Skiathos became officially autonomous and independent. The Spartans tried to violate this by re-occupying the island but the Skiathians, helped by the Athenians, managed to throw them out and established peace and autonomy in their island for 40 years. But the years of prosperity in Skiathos ended when the Athenians transformed it into a military base against Philip II of Macedonia. When the Macedonians took Skiathos, they installed a tyrant on the island where the democracy returned only in 341 BC." />
+
+        <TextView
+            android:id="@+id/third_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/second_section"
+            android:text="After the death of Alexander the Great, a succession of leader followed in entire Greece and in Skiathos during which the Skiathians suffered very much. In 197 BC, Skiathos regained its democracy. The Romans took Greece in 146 BC but they ceded some liberties to the Skiathians who lived peacefully in the Roman oblivion. In 88 BC, the king of Pontus, Mithriades VI burned and destroyed Skiathos in his war against the Romans. In 42 BC, Skiathos went back under Athenian domination. Many pirates raids devastated the island during those years. After 221 AD, Skiathos went back under Roman authority. During these periods the town of the island grew and developed."/>
+
+        <TextView
+            android:id="@+id/medieval_time_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medieval Time"
+            android:textSize="18sp"
+            android:layout_below="@+id/third_section"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/forth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/medieval_time_title"
+            android:text="In 325 AD, Christianity appeared on Skiathos and the first church dedicated to the Holy Trinity was built in 530. During the Byzantine period, Skiathos was part of the province of Thessaly and its bishop belonged to the Metropolis of Larissa. In the 7th century, Saracen pirates devastated the Island of the Aegean Sea, and Skiathos did not escape the massacre. In 1204, Crusaders took the territories of the Byzantine Empire as well as the Aegean Islands and Skiathos which they gave to the Venetians. The Venetian built a castle on Skiathos known today as Bourtzi, located in the main port. The Ghisi remained rulers of Skiathos until 1276. Then other Venetians took the island that remained under their authority until the fall of Constantinople in 1453."/>
+
+        <TextView
+            android:id="@+id/fifth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/forth_section"
+           android:text="The Ottomans dominated Skiathos in 1538 AD. During the early years of the 19th century, the inhabitants of Skiathos started to develop in shipbuilding. The War of Independence found them well prepared and the locals took part in many revolutionary actions against the Turks. Many fighters of the Greek Revolution sought refuge in Skiathos, among them was also the famous revolutionary hero Kolokotronis."/>
+
+        <TextView
+            android:id="@+id/recent_years_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recent Years"
+            android:textSize="18sp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/fifth_section"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/sixth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/recent_years_title"
+            android:text="After the Greek Revolution, the town of Kastro was abandoned and the locals moved to the port where a new town was constructed. Boatbuilding started again. Skiathos inspired many poets, writers, and artists, including Alexandros Papadiamantis and Alexandros Moraitidis."/>
+
+        <TextView
+            android:id="@+id/seventh_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/sixth_section"
+            android:text="The Town of Skiathos was greatly damaged by German bombs during the Nazi occupation of Greece. On September 14th, 1943, the Nazi troops sank the Greek submarine Lambros Katsonis off the coasts of Skiathos and every year the Katsonia Festival commemorates this sad event. In the years of the Nazi occupation, Kastro became a refuge for Greek revolutionaries, British, Australians, and New Zealanders. After the war, the economic and social life of Skiathos developed rapidly."/>
+
+    </RelativeLayout>
+
+</ScrollView>

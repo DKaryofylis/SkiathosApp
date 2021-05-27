@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/menu_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="~ Everything you need to know ~"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/menu_title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Skiathos Island"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:textSize="26dp"-->
+<!--        android:layout_above="@+id/menu_description"-->
+<!--        android:textColor="@color/black"/>-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/menu_description"
+        android:scaleType="fitXY"
+        android:src="@drawable/imageview_kastro" />
+
+
+</RelativeLayout>

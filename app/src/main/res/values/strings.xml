@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Skiathos</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="terrain">terrain</string>
+    <string name="satellite">satellite</string>
+    <string name="default_map">default</string>
+    <string name="bus_route">Bus Route</string>
+    <string name="top_right_photo">top_right_photo</string>
+    <string name="top_left_photo">top_left_photo</string>
+    <string name="bottom_left_photo">bottom_left_photo</string>
+    <string name="bottom_right_photo">bottom_right_photo</string>
+    <string name="skiathos_island">Skiathos Island</string>
+    <string name="an_earthly_paradise">An Earthly Paradise</string>
+    <string name="title_activity_papadiamantis__house__loc">Map</string>
+    <string name="title_activity_kastro__loc">Map</string>
+</resources>

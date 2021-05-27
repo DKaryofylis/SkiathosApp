@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.skiathos">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/skiathos_logo_transparent"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/skiathos_logo_transparent"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Skiathos">
+        <activity android:name=".Maps.Bus_Stops.Bus_Stop_4"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Skiathos.CustomTheme"></activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Maps.Kastro_Loc"
+            android:label="@string/title_activity_kastro__loc" />
+        <activity
+            android:name=".Maps.Papadiamantis_House_Loc"
+            android:label="@string/title_activity_papadiamantis__house__loc" />
+        <activity
+            android:name=".Maps.all_beaches.Agkistros"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Maps.all_beaches.Aselinos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Maps.all_beaches.Sklithri"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Maps.all_beaches.Krifi_Ammos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Maps.all_beaches.Agia_Paraskeui"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Maps.all_beaches.Koukounaries"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Maps.all_beaches.Mandraki_Xerxis"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Maps.all_beaches.Mandraki_Elias"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Culture.TraditionalSkiathosDance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Culture.Costumes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Culture.Architecture"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Culture.History"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SkiathosNow.Papadiamantis_House"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SkiathosNow.Bourtzi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SkiathosNow.SkiathosTown"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Maps.Beaches"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SkiathosNow.Kastro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Maps.Bus_Route"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dashboard.Dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

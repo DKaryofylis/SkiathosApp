@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maps.Beaches">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/back_button"
+                android:layout_marginTop="25dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/back_arrow"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/beaches_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/anton"
+                android:shadowColor="@color/lightsteelblue"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="10"
+                android:text="Skiathos Island"
+                android:textSize="30dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+
+            <TextView
+                android:id="@+id/beaches_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Beaches"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textAllCaps="true"
+                android:textSize="26dp" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/beaches_txt"
+                android:layout_alignBottom="@+id/beaches_txt"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/beaches_txt"
+                android:src="@drawable/palm_tree" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/beaches_txt"
+                android:layout_alignBottom="@+id/beaches_txt"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:layout_toLeftOf="@id/beaches_txt"
+                android:src="@drawable/palm_tree" />
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="40dp">
+
+            <ImageView
+                android:id="@+id/koukounaries"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/koukounaries"
+                android:transitionName="koukounaries_transition"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="110dp"
+                android:text="Koukounaries"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="40dp">
+
+            <ImageView
+                android:id="@+id/mandraki_elias"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mandraki_elias"
+                android:transitionName="mandraki_elias_transition"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="110dp"
+                android:text="Mandraki Elias"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="40dp">
+
+            <ImageView
+                android:id="@+id/mandraki_xerxis"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mandraki_xerxis"
+                android:transitionName="mandraki_xerxis_transition"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="110dp"
+                android:text="Mandraki Xerxis"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="40dp">
+
+            <ImageView
+                android:id="@+id/agkistros"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/agkistros"
+                android:transitionName="agkistros_transition"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="110dp"
+                android:text="Agkistros"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="40dp">
+
+            <ImageView
+                android:id="@+id/agia_paraskeui"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/agia_paraskeui"
+                android:transitionName="agia_paraskeui_transition"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="110dp"
+                android:text="Agia Paraskeui"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="40dp">
+
+            <ImageView
+                android:id="@+id/sklithri"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sklithri"
+                android:transitionName="sklithri_transition"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="110dp"
+                android:text="Sklithri"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="40dp">
+
+            <ImageView
+                android:id="@+id/krifi_ammos"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/krifi_ammos"
+                android:transitionName="krifi_ammos_transition"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="110dp"
+                android:text="Krifi Ammos"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="40dp">
+
+            <ImageView
+                android:id="@+id/aselinos"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/aselinos"
+                android:transitionName="aselinos_transition"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="110dp"
+                android:text="Aselinos"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkiathosNow.SkiathosTown">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/limani"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/limani" />
+
+            <TextView
+                android:id="@+id/skiathos_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skiathos Town"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/limani"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="-10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/skiathos_title"
+                android:text="\nThe city of Skiathos is the only built-up area of the island.It is built on the southeastern tip of the island in a windless bay which separates the island of Bourtzi in two.
+It is a relatively new settlement, built in 1829 - 1830 on the site of the ancient city, on two hills situated at the edge of the sea. The ancient settlement was built in 800 BC.
+The large natural port of the modern city is ideal in shape and in location. This has been a basic element in regulating the life on the island both in the old and in the modern times." />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/palio_limani"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:paddingTop="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/palio_limani" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:layout_below="@+id/palio_limani"
+                android:text="\nThe large natural port of the modern city is ideal in shape and in location. This has been a basic element in regulating the life on the island both in the old and in the modern times.
+
+In the modern city of Skiathos, the houses are small and simple, with two floors in their majority and built amphitheatrically one next to the other. The streets are narrow without any typical planning apart from few parts in the city." />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkiathosNow.Bourtzi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/kastro_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/kastro" />
+
+        <TextView
+            android:id="@+id/kastro_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kastro"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/kastro_image"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="-10dp"/>
+
+        <TextView
+            android:id="@+id/kastro_map_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kastro_image"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="-10dp"
+            android:layout_toRightOf="@+id/kastro_title"
+            android:text="Location"
+            android:textColor="@color/gold"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/kastro_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kastro_image"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/kastro_map_txt"
+            android:src="@drawable/location" />
+
+        <TextView
+            android:id="@+id/first_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/kastro_title"
+            android:text="Around the middle of the 14th century, because of the continuous pirate raids, the people of Skiathos were forced to set up their city in Kastro, a peninsula on the northern part of the Island, which was a natural fortress. In order to strengthen this fortress they surrounded it with walls full of embrasures and cannons tumed to the land. These were very strong and tall.
+
+Communication between the fortress and the land was done by means of a wooden mobile bridge, which joined the fortress gate with the hill that faced it. In case of emergency it was pulled towards the inside part of Kastro and as a result it did not allow enemies to enter. On top of the external gate there was a terrace with the essential 'zematistra', (a skillet full of hot water to scald intruders)."/>
+
+        <TextView
+            android:id="@+id/second_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="20dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/first_section"
+            android:text="From the time it was built until 1453, Kastro was under Byzantine rule. Later, until 1538 it was under Venetian rule and until 1821 it was under Turkish rule. For a small period around 1660, Kastro went again under Venetian rule. Throughout these years the life of the people was very difficult and at times even hellish since apart from the continuous pirate raids and the aspiring conquerors, the people had to face the problem of limited space in the inside of the castle fortress.
+
+Therefore, the houses were small and built very close to each other. Despite this, in Kastro there were more than twenty churches, a mosque without a minaret from the time of the Turkish accupation, and the required water tanks. The Cametary was located outside the city."/>
+
+        <TextView
+            android:id="@+id/third_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="20dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/second_section"
+            android:text="Ever since Kastro was abandoned, in 1830, and with the establishment of the independent Hellenic State, it was left on its own devices. As a result, nowadays only two churches have been saved (Gennisi tou Christou (Christ's Birth) and Agios Nikolaos). There is also the church of Panagia Preklas which is half ruined. We can see today a part of the wall with the gate, the marvellous terrace with the 'zematistra', the half-ruined mosque and some ruins of the Turkish headquarters.
+
+There are also two tanks and the cannon of Anagia which have been saved.
+Definitely Kastro is the most important site of Skiathos, since it combines the wild and imposing natural beauty with history. Together they narrate other times in a melancholy way, through the ruins."/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkiathosNow.Bourtzi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bourtzi"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bourtzi_image" />
+
+        <TextView
+            android:id="@+id/bourtzi_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bourtzi"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/bourtzi"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="-10dp"/>
+
+        <TextView
+            android:id="@+id/first_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/bourtzi_title"
+            android:text="\Bourtzi is a small peninsula which separates the port of Skiathos in two. In the past it was a fort, which was established by the Gizi brothers who occupied Skiathos in 1207. It was surrounded by walls battlements and embrasures and on the left and right of the gate there were two round towers.
+
+It is not possible to determine the height of the walls by the present ruins. Moreover, in the fort there was a tank and a small church called Agios Georgios, protector of the Venetians, probably built by the Gizi brothers. Because of that church, Bourtzi was also called Kastelli tou Agiou Georgiou - Castle of St. George. The fort was destroyed in 1660 when the admiral Fransesco Morozini occupied the island." />
+
+        <TextView
+            android:id="@+id/second_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/first_section"
+            android:text="\In 1823 though the ruined embrasures, the island inhabitans - both Skiathans and refugees - managed to repulse Topal - pasha. After the liberation, the first lazaret of the island operated in Bourtzi. In 1906 a primary school was built in the centre of the peninsula, donated by Andreas Syngros. In the entrance of that school since 1925 there has been the bust of Alexandros Papadiamantis.
+
+Nowadays, Bourtzi is really a rare recreation place. It is full of pine trees, always with fresh, cool air and with a magnificent view. There are few ruins of the old fort and we can see, on the left and right of the street leading to the entrance of the old school, the sites of the church of Agios Georgios and of the fort tank." />
+
+        <TextView
+            android:id="@+id/third_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="20dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/second_section"
+            android:text="\The old primary school has been converted into a picturesque cultural centre, with the initiative of the present municipal authorities. In it, there are practical conference rooms in good taste and a faboulous summer theatre which hosts successful theatrical and musical performances every summer.
+
+Moreover, in Bourtzi there is a municipal cafe where special nights are held. These fit in with the ambience of the small, full of green peninsula."/>
+
+    </RelativeLayout>
+
+</ScrollView>

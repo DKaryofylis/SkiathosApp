@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/arrow_back"
+            android:title="Home"></item>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Skiathos Now">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_skiathos_town"
+                    android:icon="@drawable/town"
+                    android:title="Skiathos Town" />
+                <item
+                    android:id="@+id/nav_bourtzi"
+                    android:icon="@drawable/bourtzi"
+                    android:title="Bourtzi" />
+                <item
+                    android:id="@+id/nav_papadiamantis_house"
+                    android:icon="@drawable/papadiamantis_house_museum"
+                    android:title="Papadiamantis House" />
+                <item
+                    android:id="@+id/nav_castle"
+                    android:icon="@drawable/castle"
+                    android:title="Kastro" />
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Culture">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_history"
+                    android:icon="@drawable/history"
+                    android:title="History" />
+                <item
+                    android:id="@+id/nav_architecture"
+                    android:icon="@drawable/architecture"
+                    android:title="Architecture" />
+                <item
+                    android:id="@+id/nav_costumes"
+                    android:icon="@drawable/costume"
+                    android:title="Costumes" />
+                <item
+                    android:id="@+id/nav_traditional_skiathos_dance"
+                    android:icon="@drawable/dance"
+                    android:title="Traditional Skiathos Dance" />
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Navigation Maps">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_beaches"
+                    android:icon="@drawable/umbrella"
+                    android:title="Beaches" />
+                <item
+                    android:id="@+id/nav_bus_route"
+                    android:icon="@drawable/bus"
+                    android:title="Bus Route" />
+            </menu>
+        </item>
+    </group>
+</menu>

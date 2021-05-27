@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkiathosNow.Bourtzi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/papadiamantis_house_image"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/papadiamantis_house" />
+
+        <TextView
+            android:id="@+id/papadiamantis_house_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Papadiamantis House"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/papadiamantis_house_image"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="-10dp"/>
+
+        <TextView
+            android:id="@+id/papadiamantis_house_map_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/papadiamantis_house_image"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="-10dp"
+            android:layout_toRightOf="@+id/papadiamantis_house_title"
+            android:text="Location"
+            android:textColor="@color/gold"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/papadiamantis_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/papadiamantis_house_image"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/papadiamantis_house_map_txt"
+            android:src="@drawable/location" />
+
+        <TextView
+            android:id="@+id/first_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="20dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/second_section"
+            android:text="\Skiathos was the birthplace of famous 19th-century Greek novelist and short-story writer Alexandros Papadiamantis, who is looked on as the father of modern Greek literature, and whose writings draw upon the hard lives of the islanders he grew up with (many are inspired by or set in the old capital, Kastro). His plain, whitewashed, wood-floor 1860 house is now a small and charming museum with books, paintings and photos of the author and his family.
+
+Bleak and ballad-like novella The Murderess, set on Skiathos, is Papadiamantis' most renowned work."/>
+
+        <TextView
+            android:id="@+id/second_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/papadiamantis_house_title"
+            android:text="\Papadiamantis House Museum is a museum in Skiathos in the Sporades, Greece, dedicated to the Greek writer Alexandros Papadiamantis (1851–1911). Following his death, his house was transformed into a modern museum with displays related to his life and attracts many visitors." />
+
+        <TextView
+            android:id="@+id/third_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="20dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/first_section"
+            android:text="\Papadiamantis was actually born in a previous house on the site but grew up in the present two-story house which his father built in 1860. At the left side of the entrance is the living room with the fireplace and original furniture (including his bed and the long narrow divan), where Papadiamantis spent the last moments of his life in the winter of 1911 and at the right a small room where the author's father, who was a priest, kept his books and religious vestments. Other rooms used by the family for storage house a display dedicated to the author's life and work." />
+
+    </RelativeLayout>
+
+</ScrollView>

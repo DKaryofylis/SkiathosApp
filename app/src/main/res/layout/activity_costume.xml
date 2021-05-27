@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkiathosNow.Bourtzi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bourtzi"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bourtzi_image" />
+
+        <TextView
+            android:id="@+id/history_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/bourtzi"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/first_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/history_title"
+           android:text="A hundred and twendy years ago, everybody in Skiathos, men and women were wearing the local, traditional clothes. The men wore knickers and a long tarboosh with a long pompon. Their clothes were similar to those of the people in Hydra. But, a few years later, after the Revolution of 1821 the men started replacing their knickers with pants and jackets. In a very short time this replacement was generalised and the last Skiathan knicker-wearer died about sevently years age. This is the reason that today we can't describe or mention the Skiathan traditional men's clothes.
+
+The women however - probably being a little more conservative than the men or because their clothes were nicer and more precious than the men's, or ever because there were no seamstresses - kept the traditional Skiathan dress, in some cases until today. Obviously the ones who are wearing now the traditional dress are old.
+
+Even through they don't make their own dresses today, they use the already existing ones. "/>
+
+        <TextView
+            android:id="@+id/second_section"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/first_section"
+            android:text="The female traditional dress in Skiathos includes the following:"/>
+
+        <TextView
+            android:id="@+id/third_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/second_section"
+            android:text="1. Shirt : this is the most important and essential item in the traditional female dress. It is long, reaching under the knee, an dits characteristic feature is the broad sleeves. "/>
+
+        <TextView
+            android:id="@+id/forth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Undershirt : it crosses at the front and does up with two small buttons, sewn on the neckline. It is usually woolen or cotton and white in colour. Women who were old or who were in mourning wore black undershirts."
+            android:layout_below="@+id/third_section"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/fifth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/forth_section"
+            android:text="3. Socks : they are knit out of cotton or wool with knitting needles and they reach the knee. The woolen socks are called 'tsourapia'. They are always white except for the ones worn by old women in mournig which are black."/>
+
+        <TextView
+            android:id="@+id/sixth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/fifth_section"
+            android:text="4. Dresses : they are made of silk, woolen or cotton material. The cotton dress is called 'foustana' while the woolen or silk one i scalled 'foustani'. The woolen are usually black or brown and more rarely purple."/>
+
+        <TextView
+            android:id="@+id/seventh_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. 'Zonari' : it is a coloured silk scarf, plain, patterned or fringed which ties at the front. The 'Zonari' (a kind of belt) fastens with two silver or copper buckles called 'tsaprakia'."
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/sixth_section"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/eighth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/seventh_section"
+           android:text="6. Shoes : on the more formal occasions they were wearing high-heeled shoes while in the house they were wearing ordinary pumps. In the winter, on top of the 'tsourapia' they were wearing 'irlikia' which are similar to pumps."/>
+
+        <TextView
+            android:id="@+id/ninenth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/eighth_section"
+           android:text="7. 'Boktsas' : it is square piece of material which is wrapped or tied on the edges and it is worn on the shoulders. It is made of woolen material for the winter and of fine calico material for the summer. Women used it to carry things, food or even their babies when working in the fields."/>
+
+        <TextView
+            android:id="@+id/tenth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/ninenth_section"
+            android:text="8. 'Vrakia' : (Knickers) they are made of cotton of fine calico material and are white."/>
+
+        <TextView
+            android:id="@+id/eleventh_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/tenth_section"
+            android:text="9. 'Gounaki' : it is made of felt or of velvet material in black, brown or dark green and it is not open from under the neck. There are both short and long 'gounakia' but old women were wearing only the long ones."/>
+
+        <TextView
+            android:id="@+id/twelveth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/eleventh_section"
+            android:text="10. 'Baboukli' : it is made of velvet material in red, green or lilac. It leaves the bust open so that all the front part of the gold-embroidered shirt can be seen."/>
+
+        <TextView
+            android:id="@+id/thirteenth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/twelveth_section"
+            android:text="11. 'Kouzouka' : It is made of velvet usually green, of or a stiff and thick cloth (called stofa) in gold colour. It was worn on top of the 'baboukli' many years ago. It doubles up in a rectangle, is worn on the shoulders and crosses, at the front of the bust."/>
+
+
+        <TextView
+            android:id="@+id/forteenth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/thirteenth_section"
+            android:text="12. Jewellery : women usually wore long earrings which touched the shoulders. Many of them were made of florins (golden coins). they even wore rings, bracelets and brooches. A big, golden brooch was used to tie their shirt. Other smaller brooches fastened the kerchief 'mantili' on the head. Many times they were wearing a necklace called 'koulaina' with a golden chain from which many gold florins were hanging."/>
+
+        <TextView
+            android:id="@+id/fifteenth_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/forteenth_section"
+            android:text="13. Hairstyle : the hair was parted in the middle and was styled in braids which fell loose on the shoulders and on the back. Each brain was tied with a narrow ribbon every day and with a wide ribbon on formal occasions and feasts. The head was covered with the 'mantila' - a kind of kerchief."/>
+    </RelativeLayout>
+
+</ScrollView>

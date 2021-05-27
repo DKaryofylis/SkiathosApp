@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/koukoukaries_image"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/koukounaries" />
+
+        <TextView
+            android:id="@+id/koukounaries_title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@+id/koukoukaries_image"
+            android:fontFamily="@font/bangers"
+            android:text="Koukounaries"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/koukounaries_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/koukounaries_title"
+            android:layout_toRightOf="@id/koukoukaries_image"
+            android:text="This is the most famous beach of Skiathos and one of the most widely known beaches in Europe." />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
